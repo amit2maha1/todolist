@@ -1,0 +1,39 @@
+.Pulsein:hover {
+    animation: pulse 200ms;  
+
+  }
+
+.Pulsein:active{
+    animation: whiteAnim 1s;
+
+}
+
+
+
+@keyframes pulse {
+    0% {
+      background-color: rgb(0, 0, 0);
+    }
+    100% {
+      background-color: rgb(255, 23, 23);
+    }
+  }
+
+  
+@keyframes pulseGrey {
+  0% {
+    background-color: rgb(0, 0, 0);
+  }
+  100% {
+    background-color: rgb(61, 61, 61);
+  }
+}
+
+  @keyframes whiteAnim {
+    0% {
+      background-color: rgb(255, 255, 255);
+    }
+    100% {
+      background-color: rgb(255, 27, 27);
+    }
+  }
